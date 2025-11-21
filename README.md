@@ -14,8 +14,7 @@ It allows you to:
 
 ## Requirements and Installation
 
-This program works on Debian and its derivatives (Kali Linux, Ubuntu,
-ParrotOS). It requires the installation of UFW (firewall) and NordVPN.
+This program works on Debian (Kali Linux). It requires the installation of UFW (firewall) and NordVPN.
 
 ------------------------------------------------------------------------
 
