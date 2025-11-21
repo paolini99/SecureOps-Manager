@@ -1,4 +1,4 @@
-#SecureOps-Manager
+# SecureOps-Manager
 StealthNet Manager is a CLI tool designed to simplify network security management on Linux systems.
 It allows you to:
 
@@ -9,6 +9,8 @@ It allows you to:
 - Connect, disconnect, and manage NordVPN settings (killswitch, DNS, autoconnect)
 - Check the current VPN status
 - Manage all features from an interactive terminal menu
+
+------------------------------------------------------------------------
 
 ## Requirements and Installation
 
