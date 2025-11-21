@@ -1,4 +1,16 @@
-# Requirements and Installation
+#SecureOps-Manager
+StealthNet Manager is a CLI tool designed to simplify network security management on Linux systems.
+It allows you to:
+
+- Update and clean the entire system
+- Enable/disable the UFW firewall
+- Set manual or random MAC addresses on all active interfaces
+- Authenticate to NordVPN
+- Connect, disconnect, and manage NordVPN settings (killswitch, DNS, autoconnect)
+- Check the current VPN status
+- Manage all features from an interactive terminal menu
+
+## Requirements and Installation
 
 This program works on Debian and its derivatives (Kali Linux, Ubuntu,
 ParrotOS). It requires the installation of UFW (firewall) and NordVPN.
