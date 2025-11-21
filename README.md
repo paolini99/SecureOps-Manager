@@ -26,13 +26,6 @@ sudo apt update
 sudo apt install ufw -y
 ```
 
-Enable the firewall (optional):
-
-``` bash
-sudo ufw enable
-sudo ufw status
-```
-
 ------------------------------------------------------------------------
 
 ## NordVPN Installation
@@ -40,32 +33,7 @@ sudo ufw status
 Download the official script:
 
 ``` bash
-wget https://downloads.nordcdn.com/apps/linux/install.sh
-```
-
-Make the script executable:
-
-``` bash
-chmod +x install.sh
-```
-
-Install NordVPN:
-
-``` bash
-sudo ./install.sh
-```
-
-Enable and start the service:
-
-``` bash
-sudo systemctl enable nordvpnd
-sudo systemctl start nordvpnd
-```
-
-Log in to your account:
-
-``` bash
-nordvpn login
+sh <(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)
 ```
 
 ------------------------------------------------------------------------
@@ -75,7 +43,8 @@ nordvpn login
 To correctly run the main script, use:
 
 ``` bash
-sudo python3 script_name.py
+chmod +x Security.py
+sudo python3 Security.py
 ```
 
 The program requires elevated privileges for:
