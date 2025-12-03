@@ -72,11 +72,11 @@ sudo python3 Security.py
 The program requires elevated privileges for:
 
 - UFW firewall management
--MAC address modification
--System updates
--NordVPN configuration and connection management
--IPv6 hardening
--AppArmor management
+- MAC address modification
+- System updates
+- NordVPN configuration and connection management
+- IPv6 hardening
+- AppArmor management
 
 ------------------------------------------------------------------------
 
