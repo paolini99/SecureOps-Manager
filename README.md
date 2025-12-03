@@ -26,7 +26,7 @@ It requires:
 - UFW (firewall)  
 - NordVPN Linux client  
 - Python 3  
-- AppArmor (optional but supported)  
+- AppArmor  
 
 ---
 
@@ -55,7 +55,7 @@ To install AppArmor and its user-space tools, run:
 
 ``` bash
 sudo apt update
-sudo apt install apparmor apparmor-utils -y
+sudo apt install apparmor apparmor-utils apparmor-profiles apparmor-profiles-extra
 ```
 
 ------------------------------------------------------------------------
